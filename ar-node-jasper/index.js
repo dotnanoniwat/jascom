@@ -7,5 +7,6 @@
  * @return {string}
  */
 module.exports = function(number, locale) {
+    console.log("User Function Number");
     return number.toLocaleString(locale);
 };
